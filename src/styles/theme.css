@@ -1,0 +1,15 @@
+:root {
+  --primary-text-color: #000;
+  --secondary-text-color: #000000dd;
+  --tertiary-text-color: #00000099;
+  --background: #fff;
+  --shadow-color: #ffffff7f;
+}
+
+[data-theme="dark"] {
+  --primary-text-color: #fff;
+  --secondary-text-color: #ffffffdd;
+  --tertiary-text-color: #ffffff99;
+  --background: #000;
+  --shadow-color: #0000007f;
+}

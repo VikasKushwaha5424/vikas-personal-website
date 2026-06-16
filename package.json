@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "homepage": "https://vikas.com/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/",
+    "format": "prettier --cache --write ."
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-tsparticles": "^1.43.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "eslint-plugin-perfectionist": "^4.14.0",
+    "prettier": "^3.5.3",
+    "react-scripts": "^5.0.1"
+  },
+  "overrides": {
+    "nth-check": "^2.0.1",
+    "postcss": "^8.4.31",
+    "resolve-url-loader": "^5.0.0"
+  }
+}

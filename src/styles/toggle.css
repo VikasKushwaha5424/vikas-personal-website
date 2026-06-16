@@ -1,0 +1,53 @@
+.toggle-container {
+  position: fixed;
+  z-index: 1;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-container:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.toggle-input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.toggle-switch {
+  cursor: pointer;
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.75rem;
+  background-color: var(--shadow-color);
+  border-radius: 25%;
+  box-shadow: 0 0 0.25rem 0.25rem rgba(128, 128, 128, 0.25);
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s linear;
+  font-size: 0.5rem;
+}
+
+.toggle-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
